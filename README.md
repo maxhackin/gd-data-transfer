@@ -23,7 +23,7 @@ This GitHub repo is **the tool only**. Your actual save files stay on your compu
 3. Extract the zip (Windows: right-click → Extract All)
 4. Close Geometry Dash
 5. Double-click **`Launch GD Data Transfer.bat`**
-6. Choose **Import pack** and point it at your `_gd_transfer_pack` folder  
+6. Choose **Import pack** and point it at your `_gd_transfer_pack` folder
    (or, if the pack is already sitting next to `GeometryDash.exe`, double-click **`Import-GD-Data.bat` inside the pack** — that importer does not need Python)
 
 Python is only needed for the windowed app. Install it from https://www.python.org/downloads/ and tick **Add python.exe to PATH**.
@@ -55,13 +55,13 @@ Then take `_gd_transfer_pack` (or the whole `2.2081` folder) to the other PC.
 | Created / saved levels | `CCLocalLevels.dat` |
 | Music library | `musiclibrary.dat` |
 | Custom songs & SFX | AppData `.mp3` / `.ogg` |
-| Geode mod settings | `%LOCALAPPDATA%\\GeometryDash\\geode` |
+| Geode mod settings | AppData Geode folder |
 | Editor backups & trash | BetterEdit / trashcan |
-| Geode mods + config | `2.2081\\geode` |
-| Macros | `2.2081\\macros` |
-| Astral macros | `2.2081\\Astral` |
-| Replays / autosaves | `2.2081\\replays`, `autosaves` |
-| Renders | `2.2081\\renders` (off by default) |
+| Geode mods + config | `2.2081/geode` |
+| Macros | `2.2081/macros` |
+| Astral macros | `2.2081/Astral` |
+| Replays / autosaves | `2.2081/replays`, `autosaves` |
+| Renders | `2.2081/renders` (off by default) |
 | Extra `.bak` copies | old level backups (off by default) |
 
 ---
@@ -69,9 +69,7 @@ Then take `_gd_transfer_pack` (or the whole `2.2081` folder) to the other PC.
 ## Safety
 
 - Geometry Dash must be **closed** on both PCs
-- Import backs up the other PC's existing `.dat` files to  
-  `%LOCALAPPDATA%\\GeometryDash\\_import_backup_TIMESTAMP`  
-  before overwriting
+- Import backs up the other PC's existing `.dat` files to `_import_backup_TIMESTAMP` in the GeometryDash AppData folder before overwriting
 - Import **replaces** save files. It does not merge two accounts
 
 ---
